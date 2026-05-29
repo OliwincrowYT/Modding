@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - [Part 0: Prerequisites](#part-0-prerequisites)
-- [Part 1: Beginner - Your First Mod](#part-1-beginner)
+- [Part 1: Beginner - Your First Mod](#Part-1:-Beginner---Your-First-Mod)
 - [Part 2: Beginner - Project Structure & Build](#part-2-beginner)
 - [Part 3: Beginner - MelonLoader Attributes](#part-3-beginner)
 - [Part 4: Beginner - MelonMod Lifecycle](#part-4-beginner)
