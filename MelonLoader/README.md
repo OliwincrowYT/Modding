@@ -8,8 +8,8 @@
 
 - [Part 0: Prerequisites](#part-0-prerequisites)
 - [Part 1: Beginner - Your First Mod](#part-1-beginner---your-first-mod)
-- [Part 2: Beginner - Project Structure & Build](#part-2-beginner)
-- [Part 3: Beginner - MelonLoader Attributes](#part-3-beginner)
+- [Part 2: Beginner - Project Structure & Build](#part-2-beginner---project-structure--build)
+- [Part 3: Beginner - MelonLoader Attributes](#part-3-beginner---melonloader-attributes)
 - [Part 4: Beginner - MelonMod Lifecycle](#part-4-beginner)
 - [Part 5: Intermediate - Harmony Patching](#part-5-intermediate)
 - [Part 6: Intermediate - Unity UI](#part-6-intermediate)
