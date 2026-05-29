@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>YourMod</AssemblyName>
+    <RootNamespace>YourModNamespace</RootNamespace>
+    <AppendTargetFrameworkToOutput>false</AppendTargetFrameworkToOutput>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference MelonLoader -->
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\References\MelonLoader.dll</HintPath>
+    </Reference>
+
+    <!-- Reference Unity assemblies -->
+    <!-- Update these paths to match your game's assembly location -->
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\References\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\References\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\References\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\References\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SceneManagement">
+      <HintPath>..\..\..\..\References\UnityEngine.SceneManagement.dll</HintPath>
+    </Reference>
+
+    <!-- Reference Harmony -->
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\References\0Harmony.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Copy dependencies to output -->
+  <ItemGroup>
+    <None Update="assets\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <!-- Copy the built DLL to game's mods folder (optional) -->
+  <!-- Uncomment and update the path below to auto-deploy -->
+  <!--
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy /Y &quot;$(TargetPath)&quot; &quot;C:\Path\To\Game\mods\&quot;" />
+  </Target>
+  -->
+
+</Project>

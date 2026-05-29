@@ -1,0 +1,1 @@
+- [BepInEx Modding Reference](bepinex-modding-reference.md) — Complete beginner-to-expert BepInEx guide with code examples, created 2026-05-29
