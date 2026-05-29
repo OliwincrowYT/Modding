@@ -3,5 +3,5 @@ A Full Modding Guide, Including BepInEx/MelonLoader Mod Creation and Installatio
 
 # Mod Loaders
 
-[BepInEx](#BepInEx)
-[Melon Loader](#MelonLoader)
+[BepInEx](/BepInEx)
+[Melon Loader](/MelonLoader)
