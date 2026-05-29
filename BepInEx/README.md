@@ -1,7 +1,5 @@
 # BepInEx Modding: Beginner to Expert
 
-> Your complete reference for BepInEx Unity modding. From "what is a plugin?" to "I'm patching the render pipeline at 3 AM."
-
 ---
 
 # Table of Contents
